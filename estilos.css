@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* codigo de reset */
+
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+
+.cabecera  /* class para la 2da cabecera */
+{   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px; background-color:white ;
+    margin-top: 10px;
+    }
+.cabecera div { width: 20%;}  /*div del logo */
+
+.navegador { padding: 10px; width: 75%; background-color:white ;}
+
+.navegador ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    list-style: none;
+}
+
+.navegador li {
+    width: 20%; margin-left: 10px; margin-right: 10px;
+}
+
+.navegador a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navegador a:hover {
+    color: white;
+    background-color: black;
+}
+
+.contenedor {
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+    padding: 10px;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inicio article {
+    font-size: 18px;
+    width: 50%;
+    padding: 200px;
+}
+
+.sobremi 
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1024px;
+}
+
+.sobremi article {
+
+    font-size: 18px;
+    width: 50%;
+    padding: 200px;
+   
+}
+
+.sobremi figure {
+    margin-top: 10%;
+}
+
+.proyectos {
+    font-size: 18px;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.proyectos section {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.proyectos article {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.proyectos article h2 {
+    color:#fd8f28;
+    font-size: 24px;
+	text-align: center;
+
+}
+
+.proyectos img {
+    margin-top: 5%;
+}
